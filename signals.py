@@ -1,5 +1,6 @@
 # File consisting of different functions and operations using those functions.
 
+# Singals
 
 import numpy as np
 
@@ -22,3 +23,19 @@ def generate_impulse(duration=1.0, impulse_time=0.0, amplitude=1.0, sampling_rat
     idx = np.argmin(np.abs(t - impulse_time))
     x[idx] = amplitude
     return t, x
+
+# Operations
+
+def time_shift(t, x, shift=0.0):
+    t_shifted = t + shift
+    return t_shifted, x
+
+
+def time_scale(t, x, scale=1.0):
+    t_scaled = t * scale
+    return t_scaled, x
+
+def add_signals(x1, x2):
+    if len(x1) != len(x2):
+        raise ValueError("Signals must have the same length for addition.")
+    return x1 + x2
