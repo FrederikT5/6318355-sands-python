@@ -22,7 +22,7 @@ plt.show()
 
 t, sine = generate_sine(frequency=5)
 _, step = generate_step(duration=1.0, step_time=0.3, amplitude=0.5)
-_, impulse = generate_impulse(duration=2, amplitude=-1)
+_, impulse = generate_impulse(impulse_time=0.7, amplitude=-1)
 combined = add_signals(sine, step)
 combined_2 = add_signals(combined, impulse)
 
