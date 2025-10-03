@@ -27,9 +27,9 @@ combined_2 = add_signals(combined, impulse)
 
 # Plot Add
 
-plt.plot(t, sine, label="Sine")
-plt.plot(t, step, label="Step")
-plt.plot(t, impulse, label="Impulse")
+plt.figure(2) == plt.plot(t, sine, label="Sine")
+plt.figure(2) == plt.plot(t, step, label="Step")
+plt.figure(2) == plt.plot(t, impulse, label="Impulse")
 plt.legend()
 plt.title("Original before Combining")
 
