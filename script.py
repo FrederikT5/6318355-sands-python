@@ -16,7 +16,6 @@ plt.plot(t_shifted, x_shifted, label="Shifted")
 plt.plot(t_scaled, x_scaled, label="Scaled")
 plt.legend()
 plt.title("Original, shifted and scaled")
-plt.show()
 
 # Add Sine, Step and Impulse
 
