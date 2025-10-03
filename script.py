@@ -17,6 +17,9 @@ plt.plot(t_scaled, x_scaled, label="Scaled")
 plt.legend()
 plt.title("Original, shifted and scaled")
 
+plt.tight_layout()
+plt.savefig("signals_output_shift_scale.png")
+
 # Add Sine, Step and Impulse
 
 t, sine = generate_sine(frequency=5)
@@ -38,5 +41,5 @@ plt.legend()
 plt.title("After Combining")
 
 plt.tight_layout()
-plt.savefig("signals_output.png")
+plt.savefig("signals_output_combined.png")
 plt.show()
