@@ -1,3 +1,5 @@
+# Tests verifying various signal generation functions and operations on those signals.
+
 from signals import *
 import numpy as np
 
