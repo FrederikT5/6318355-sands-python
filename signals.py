@@ -58,6 +58,8 @@ def generate_impulse(duration=1.0, impulse_time=0.0, amplitude=1.0, sampling_rat
     x[idx] = amplitude
     return t, x
 
+# Operations
+
 
 def time_shift(t, x, shift=0.0):
     """Shift a signal in time.
