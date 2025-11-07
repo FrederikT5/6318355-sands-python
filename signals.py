@@ -1,6 +1,6 @@
 # File consisting of different functions and operations using those functions.
 
-# Singals
+# Signals
 
 import numpy as np
 
