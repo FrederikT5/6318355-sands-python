@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SandS-Project"
+version = "0.1.0"
+description = "Provides functions for signal creation and manipulation."
+authors = [
+    { name = "FrederikT5", email = "frederik.tanipere@gmail.com" }
+]
+dependencies = ["numpy", "matplotlib"]
